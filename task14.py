@@ -19,5 +19,11 @@ for value_1 in range(len(massiv)):
         if massiv[value_1]==massiv[value_2]:
             print(massiv.index(value_1+1),massiv.index(value_2)+1)
 
-
+list_1=list(eval(input()))
+print(list_1)
+list_2=list(eval(input()))
+print(list_2)
+extened_list=list_1+list_2
+count=len(extened_list)
+print(extened_list.append(count))
 
