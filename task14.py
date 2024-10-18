@@ -26,4 +26,3 @@ print(list_2)
 extened_list=list_1+list_2
 count=len(extened_list)
 print(extened_list.append(count))
-
