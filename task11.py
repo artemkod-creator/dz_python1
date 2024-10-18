@@ -8,4 +8,3 @@ if int(year)%10 + int(year)%100==0:
 else:
     stoletie = year//100+1
     print(f"В {year} году было {stoletie} столетие")
-
