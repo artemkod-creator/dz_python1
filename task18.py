@@ -1,8 +1,6 @@
-f=open('hello..txt','w')
+f=open('hello..txt','w+t')
 f.write('Hello')
-f.close()
-f=open('hello..txt','r')
+f.seek(0)
 print(f.read())
-
-
+f.close()
 
