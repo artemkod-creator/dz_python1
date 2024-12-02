@@ -11,14 +11,15 @@ spisok=[]
 
 razgadka=" "
 n=1
-for n in range(1,20):
+for n in range(1,25):
     for i in shifr:
         if i in znaki or i == " ":
             razgadka += i
             continue
         if alpa.index(i)+n>=25:
-            razgadka+=alpa[alpa.index(i)+n-25]
+            razgadka+=alpa[alpa.index(i)+n-25-1]
             continue
         razgadka+=alpa[alpa.index(i)+n]
     print(razgadka,"\n")
     razgadka=" "
+# although that way may not be obvious at first unless you're dutch.
